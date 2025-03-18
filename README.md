@@ -5,7 +5,7 @@ This script configures iptables rules for managing network traffic, ensuring sec
 
 ## Installation & usage
 
-### 1 backup existing iptables rules
+### 1 Backup existing iptables rules
 Before applying new rules, **always** back up your current iptables configuration to avoid accidental misconfigurations:
 ```bash
 sudo iptables-save > <path>/iptables-backup-$(date +%F).rules
